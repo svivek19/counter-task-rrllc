@@ -15,8 +15,10 @@ const App = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Counter App</h1>
+    <div className="w-5/6 my-5 text-center mx-auto">
+      <h1 className="text-2xl font-semibold text-white bg-slate-800 p-5">
+        Counter App
+      </h1>
       <Counter
         value={count}
         onIncrement={handleIncrement}
